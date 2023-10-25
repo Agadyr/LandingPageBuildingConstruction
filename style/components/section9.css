@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "pp-md";
+    src: url("../../FONTS/Rubik-Medium.ttf");
+}
+.section_9{
+    width: 80%;
+    padding-top: 100px;
+    margin: 0 auto;
+    font-family: "poppins";
+}
+.section9_text{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.section9_text h1{
+    color: #242c33;
+    font-size: 36px;
+    font-weight: bold;
+}
+.section9_text p{
+    font-size: 16px;
+    color: #383338;
+    font-family: "aryk";
+    line-height: 27px;
+    width: 50%;
+}
+.section9_text button{
+    border: none;
+    background-color: #ff6a26;
+    color: #242c33;
+    border-radius: 4px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    font-family: "poppins";
+    font-weight:bold;
+    font-size: 16px;
+    transition: .4s;
+}
+.section9_text button:hover{
+    background-color: #242c33;
+    color: #FFF ;
+    cursor: pointer;
+}
+.section9_images_bg img{
+    width: 100%;
+}
+.section9_blogs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+.section9_images{
+    width: calc(33.3% - 20px);
+}
+.section9_images_bg{
+    position: relative;
+    overflow: hidden;
+}
+.section9_bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(36, 44, 51, 0.569);
+    opacity: 0;
+    margin: 0 auto;
+    transition: .4s;
+}
+.section9_bg button{
+    border: none;
+    background-color: #ff6a26;
+    color: #242c33;
+    border-radius: 4px;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    font-family: "poppins";
+    font-weight:bold;
+    font-size: 16px;
+    transition: .4s;
+    
+}
+.section9_bg button:hover{
+    color: #ff6a26;
+    background-color: #242c33;
+    cursor: pointer;
+}
+.section9_images:hover .section9_bg{
+    opacity: 1;
+}
+.section9_text_img{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #868686;
+    display: flex;
+}
+.section9_text_img i{
+    margin-right: 15px;
+}
+.section9_text_img p{
+    font-family: "aryk";
+}
+.section9_images h2{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 27px;
+    transition: .4s;
+}
+.section9_images h2:hover{
+    color: #ff6a26;
+    cursor: pointer;
+}
+@media(max-width:1149px){
+    .section9_text{
+        display: block;
+        text-align: center;
+    }
+    .section9_text p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .section9_blogs{
+        flex-wrap: wrap;
+    }
+    .section9_images{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

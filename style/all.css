@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("vendor/reset.css");
+@import url("components/header.css");
+@import url('components/home.css');
+@import url("components/nav.css");
+@import url('components/inner.css');
+@import url("components/section2.css");
+@import url("components/section3.css");
+@import url("components/section4.css");
+@import url("components/section5.css");
+@import url("components/section71.css");
+@import url("components/section6.css");
+@import url("components/section8.css");
+@import url("components/section9.css");
+@import url("components/footer.css");
+@import url("components/modal.css");

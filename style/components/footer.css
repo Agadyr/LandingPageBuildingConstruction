@@ -1,0 +1,145 @@
+.footer_bg{
+    background-color: #242c33;
+    font-family: "poppins";
+    margin-top: 60px;
+}
+.footer1{
+    width: 25%;
+}
+.footer3{
+    width: 27%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer1 img{
+    margin-bottom: 20px;
+}
+.footer1 p{
+    color: #b8bfc8;
+    font-family: "aryk";
+    font-size: 15px;
+    line-height: 27px;
+    margin-bottom: 70px;
+}
+.footer1_links i{
+    color: #fff;
+    font-size: 18px;
+    margin-right: 25px;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+.footer2 h2{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+.footer2 a{
+    font-family: "aryk";
+    color: #b8bfc8;
+    text-decoration: none;
+    padding-top: 33px;
+    transition: .4s;
+}
+.footer2 a:hover{
+    color: #ff6a26;
+
+}
+.footer3{
+    font-family: "poppins";
+}
+.footer3 p{
+    color: #b8bfc8;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "aryk";
+}
+.footer3 h2{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.footer3_text{
+    display: flex;
+    align-items: center;
+    color:#198cfa;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.footer3_text i{
+    margin-right: 10px;
+}
+.footer3_text1 i{
+    margin-right: 10px;
+}
+.footer3_text1{
+    display: flex;
+    align-items: center;
+    color:#198cfa;
+    margin-top: 20px;
+}
+.footer4 h2{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+.footer4_1{
+    display: flex;
+    margin-bottom: 40px;
+}
+.footer4_2{
+    margin-top: 40px;
+    display: flex;
+}
+.footer4 h2{
+    margin-bottom: 40px;
+}
+.footer4_text1{
+    margin-left: 20px;
+}
+.footer4_text1 h3{
+    font-size: 16px;
+    line-height: 24px;
+    color: #b8bfc8;
+}
+.footer4_text1 p{
+    margin-top: 20px;
+    color: #829991;
+    font-family: "aryk";
+}
+@media(max-width:1212px){
+    .footer{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .footer1{
+        width: 100%;
+    }
+    .footer2{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .footer3{
+        margin-top: 40px;
+        width: 100%;
+    }
+    .footer4{
+        margin-top: 40px;
+        width: 100%;
+    }
+}
+@media(max-width:326px){
+    .footer4_text1 h3{
+        font-size: 14px;
+    }
+}

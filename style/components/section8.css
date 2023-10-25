@@ -1,0 +1,63 @@
+.section_8{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "poppins";
+    /* background-image: url("../../img/photo_2023-05-30_20-52-04.jpg");
+    background-size: cover; */
+}
+.section_8 p{
+    color: #ffc527;
+    font-family: "aryk";
+}
+.sc8bg{
+    /* background-image: url("../../img/photo_2023-05-30_20-52-04.jpg") ; */
+    background: #242c33 url(../../img/photo_2023-05-30_20-52-04.jpg) right center fixed no-repeat ;
+    background-size: cover;
+    padding: 100px 0;
+    box-sizing: border-box;
+
+}
+.section_8_1{
+    width: calc(50% - 20px);
+}
+.section_8_1 input{
+    margin-top: 10px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    font-family: "aryk";
+    box-sizing: border-box;
+}
+
+.section_8_3{
+    width: 100%;
+}
+.section_8_3 button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color:#ff6a26 ;
+    color: #151e37;
+    transition: .4s;
+}
+.section_8_3 button:hover{
+    color: #ff6a26;
+    background-color: #151e37;
+    cursor: pointer;
+}
+@media(max-width:995px){
+    .section_8{
+        flex-wrap: wrap;
+    }
+    .section_8_1{
+        width: 100%;
+    }
+}

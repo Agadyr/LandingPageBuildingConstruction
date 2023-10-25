@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "P-light";
+    src: url("../../FONTS/Poppinspoppins-semiboldmedium.woff");
+}
+
+.nav{
+    background-color: #ff6a26;
+    background-position: left right;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-family: "P-light";
+    font-weight: bold;
+    font-size: 14px;
+    width: 80%;
+    margin: 0 auto;
+    z-index: 5;
+    position: relative;
+}
+.nav button{
+
+    font-weight: bold; 
+    font-size: 16px;
+    color: #ff6a26;
+    background-color:#242c33 ;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    transition: .4s;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: .4s;
+}
+.nav a:hover{
+    color: #242c33;
+}
+.nav button:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.nav_item:first-child{
+    padding-top: 5px;
+}
+.nav_bars{
+    display: none;
+}
+#burger_menu{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff6a26;
+    display: none;
+}
+#burger_menu1{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff6a26;
+    display: none;
+}
+#burger_menu2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ff6a26;
+    display: none;
+}
+.burger_menu_item{
+    padding: 15px 0 15px 20px;
+    box-sizing: border-box;
+    width: 90%;
+    margin:0 auto;
+    background-color:#242c33;
+    border-bottom: 1px solid #3c3b3b;
+}
+.burger_menu_item:nth-child(1){
+    background-color: #fff;
+}
+.first_word a{
+    color: #242c33;
+}
+.openmenu{
+    display: flex !important;
+    flex-direction: column;
+}
+.openmenu1{
+    display: flex !important;
+    flex-direction: column;
+}
+.openmenu2{
+    display: flex !important;
+    flex-direction: column;
+}
+@media(max-width:1015px) {
+    .nav_bars{
+        display: block;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .nav_item1{
+        display: none;
+    }
+}
+@media(max-width:500px){
+    .nav_item3{
+        display: none;
+    }
+}
+@media(max-width:790px){
+    .nav{
+        width: 100%;
+    }
+}

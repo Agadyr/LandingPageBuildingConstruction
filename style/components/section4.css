@@ -1,0 +1,113 @@
+.section4{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 150px;
+    font-family: "poppins";
+}
+.section4_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section4_link{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+.section4_link b{
+    color: #ff6a26;
+}
+.section4_link a{
+    color: #242c33;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: .4s;
+}
+.section4_link a:hover{
+    color: #ff6a26;
+    cursor: pointer;
+}
+.section4_text h2{
+    font-size: 36px;
+    font-family: "poppins";
+    font-weight: bold;
+    color: #242c33;
+    margin-bottom: 20px;
+}
+.section4_text p{
+    margin-top: 15px;
+    font-family: "aryk";
+    font-size: 14px;
+}
+.section4_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+.section4_img img{
+    width: 100%;
+}
+.section4_images{
+    position: relative;
+    overflow: hidden;
+    width: calc(100% / 4.5);
+}
+.section4_bg{
+    width: 100%;
+    background-color: #242c33;
+    margin: 0 auto;
+    position: absolute;
+    font-size: 15px;
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: .4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4_images:hover .section4_bg{
+    opacity: 90%;
+    cursor: pointer;
+    
+}
+.section4_bg i{
+    background-color: #ff6a26;
+    padding: 15px 15px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    border-radius: 4px;
+}
+.section4_bg a{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media(max-width:1121px){
+    .section4_images{
+        width: 45%;
+    }
+}
+@media(max-width:1000px){
+    .section4_text{
+        flex-wrap: wrap;
+        line-height: 27px;
+        text-align: center;
+    }
+    .section4_link{
+        margin-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width:1000px){
+    .section4_images{
+        width: 100%;
+    }
+}
